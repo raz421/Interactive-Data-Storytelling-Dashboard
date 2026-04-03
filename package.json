@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev": "npm --prefix DataStoryDashboard run dev",
+    "build": "npm --prefix DataStoryDashboard run build",
+    "preview": "npm --prefix DataStoryDashboard run preview"
   },
   "keywords": [],
   "author": "",
